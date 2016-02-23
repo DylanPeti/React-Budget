@@ -5,6 +5,7 @@ var Header = React.createClass({
         <header className="nav">
           <div className="welcome-bar"></div>
          <div className="header">
+         <h1>React Budget</h1>
          </div>
         </header>
       );
@@ -131,6 +132,7 @@ var Balance = React.createClass({
       <thead>
       <tr>
          <td></td>
+          <td></td>
          <td>Income: {this.props.balance}</td>
          <td>Expenses</td>
          <td>Total: {this.props.balance}</td>
@@ -159,6 +161,10 @@ var BudgetItems = React.createClass({
   onChange: function(name, e) {
     var input = {};
     input[name] = e.target.value;
+    if(name = amount) {
+      var amount = document.getElementById("amount");
+      amount.value = amount.value.replace(/[^0-9]/g, '');
+    }
     this.setState(input)
   },
 
@@ -209,7 +215,7 @@ var BudgetItems = React.createClass({
         <div className="form-group">
         <input placeholder="title" name="title" onChange={this.onChange.bind(this, 'text')} value={this.state.text} required/>
         <input className="description" placeholder="description" name="description" onChange={this.onChange.bind(this, 'description')} value={this.state.description} required/>
-        <input type="number" className="amount" placeholder="Amount" name="amount" onChange={this.onChange.bind(this, 'amount')} value={this.state.amount} required/>
+        <input type="number" id="amount" className="amount" placeholder="Amount" name="amount" onChange={this.onChange.bind(this, 'amount')} value={this.state.amount} step="any" required/>
         <button className="primary-btn">Add Item</button>
         </div>
        </form>
