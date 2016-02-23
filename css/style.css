@@ -1,0 +1,192 @@
+body {
+	width: 100%;
+	height: 100%;
+	font: bold 24px Arial,Helvetica,sans-serif;
+	color: #515151;
+}
+
+h1, a {
+	color: #515151;
+}
+a, a:hover {
+	text-decoration: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.opt-btn.income {
+ color: #fff;
+ font-weight: 100;
+}
+
+#income {
+ background: #4DBDEB;
+ color: #fff;
+}
+
+#expense {
+ background: #f14e32;
+ color: #fff;
+}
+
+.opt-btn.expense{
+ color: #333;
+ font-weight: 100;
+ margin-left: 5px;
+}
+
+.primary-btn {
+	font-size: 12px;
+    height: 40px;
+	margin: 0 auto;
+	display: block;
+	width: 24%;
+	border: 1px solid #4DBDEB;
+	text-align: center;
+	margin: 0px auto 0 auto;
+	background: #fff;
+	color: #4DBDEB;
+}
+
+.container {
+   width: 930px;
+}
+
+.welcome-bar{
+	position: relative;
+	width: 100%;
+	height: 45px;
+	background: #4c4c4c;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background: #eee;
+}
+
+.options {
+	margin: 20px 0;
+	border-top: 1px solid #eee;
+	padding-top: 15px;
+}
+
+.options .opt-btn {
+	font-size: 12px !important;
+	padding: 10px 15px;
+	border-radius: 3px;
+}
+
+.title {
+   
+    font: bold 24px Helvetica,Arial,sans-serif;
+    width: 100%;
+    white-space: nowrap;
+
+}
+
+.item-wrap {
+  width: 100%;
+}
+
+.item-name label, .item-amount label {
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px 0;
+
+}
+
+.item-name input {
+/* border-bottom: 1px solid #4DBDEB;*/
+    display: inline-block;
+    padding: 0 0 0 15px;
+    width: 25%;
+    text-align: left;
+    border: 1px solid #eee;
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: capitalize;
+    border-radius: 0;
+}
+
+.item-name input:first-child, .item-name input:nth-child(2){
+ border-right: 0;
+}
+
+.item-amount input {
+/* border-bottom: 1px solid #27c229;*/
+}
+
+.item-name {
+	margin-bottom: 40px;
+}
+
+.item-name input, .item-amount input {
+ margin: 0 auto;
+ box-shadow: none;
+ height: 40px;
+ padding-left: 10px;
+ 
+
+}
+
+.subtitle {
+	font-size: 18px;
+}
+
+.item-name input {
+	display: inline-block;
+}
+
+.item-name button {
+	float: right;
+}
+
+.table-labels {
+	width: 100%;
+}
+td {
+	font-size: 14px;
+	width: calc(100% / 6);
+	border-top: none !important;
+
+}
+
+.table {
+	 width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    overflow: scroll;
+    height: 200px;
+}
+.table tbody{
+display: block;
+}
+
+.table tr {
+	display: inline-block;
+	width: 100%;
+}
+
+.table td {
+	color: #999;
+	width: 20%;
+	font-weight: 100;
+	padding: 10px 0 !important;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
