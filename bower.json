@@ -1,0 +1,25 @@
+{
+  "name": "react-budget",
+  "description": "A simple budget demo app",
+  "main": "./js/react.js",
+  "authors": [
+    "Dylan Peti"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/DylanPeti/React-Budget",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^0.14.8"
+  }
+}
